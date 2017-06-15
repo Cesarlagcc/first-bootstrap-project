@@ -1,3 +1,53 @@
-.jumbotron{
-	background-color: darkcyan;
+*{
+	/*box-sizing: border-box;*/
+	/*padding:0;
+	margin:0;*/
 }
+
+
+.navbar{
+	background:#333;
+	/*padding:10px;*/
+}
+
+.container-fluid{}
+
+.col-lg-3{
+	border:1px solid black;
+}
+
+.btn-info{
+	margin-bottom:20px;
+	padding:20px 100px;
+	background-color:purple;
+}
+
+.btn-info:hover{
+	background-color:#73f;
+}
+
+.btn-info:active:focus{
+	background-color: #73a;
+}
+
+.jumbotron{
+	color:#fff;
+}
+
+.jumboimg{
+	text-align: center;
+	background-image: url("../images/eruption.jpeg");
+	background-position: bottom;
+	background-size:cover;
+	background-repeat: no-repeat;
+	width:100%;
+	/*vh:100%;*/
+}
+
+#rndm-gif-container img{
+	width:80%;
+}
+
+
+
+
